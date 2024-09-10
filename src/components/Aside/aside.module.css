@@ -1,0 +1,11 @@
+.aside {
+  width: Fixed (177px) px;
+  height: Fixed (868px) px;
+  top: 20px;
+  left: 20px;
+  padding: 40px 16px 40px 16px;
+  gap: 80px;
+  border-radius: 8px 0px 0px 0px;
+  background: #171d1f;
+  opacity: 0px;
+}
