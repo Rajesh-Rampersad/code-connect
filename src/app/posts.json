@@ -1,5 +1,5 @@
-export const post = 
-  [
+{
+    "posts": [
         {
             "id": 1,
             "cover": "https://raw.githubusercontent.com/viniciosneves/code-connect-assets/main/posts/introducao-ao-react.png",
@@ -169,5 +169,5 @@ export const post =
             }
         }
     ]
-        
-  
+    
+}
