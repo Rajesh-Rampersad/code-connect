@@ -1,6 +1,9 @@
+
+
 import { CardPost } from '@/components/CardPost'
 import { logger } from '@/logger.'
 import styles  from './page.module.css'
+import { Link } from "react-router-dom";
 
 // import { post } from './post'
 // const post =         {
@@ -35,8 +38,8 @@ export default async function Home() {
       {posts.map((post) => (
         <CardPost key={post.id} post={post} />
       ))},
-      {prev && <a href={`/?page=${prev}`}>Página anterior</a>}
-      {next && <a href={`/?page=${next}`}>Página próxima</a>}
+      {prev && <Link href={`/?page=${prev}`}>Página anterior </Link>}
+      {next && <Link href={`/?page=${next}`}>Página próxima</Link>}
       </main>
       
   )
